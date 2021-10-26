@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: git@github.com:ZolotarenkoM/argocd.git
     targetRevision: HEAD
-    path: dev
+    path: test
   destination:
     server: https://kubernetes.docker.internal:6443
     namespace: default
