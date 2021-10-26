@@ -11,8 +11,8 @@ spec:
     targetRevision: HEAD
     path: test
   destination:
-    server: https://kubernetes.docker.internal:6443
-    namespace: default
+    server: https://kubernetes.default.svc
+    namespace: app1
 
   syncPolicy:
     syncOptions:
